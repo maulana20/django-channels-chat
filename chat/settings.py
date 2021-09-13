@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'chat.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'chat',
+        'NAME': 'django_chat_demo',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'OPTIONS': {
-        }
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
     }
 }
 
